@@ -1,12 +1,51 @@
-# React + Vite
+# 📹 WebRTC Video Calling App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time video calling application built with **React + Vite**, powered by **ZegoCloud** for seamless peer-to-peer communication. Users can join a room and start a high-quality video call instantly through the browser.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 Room-based secure joining
+- 🎥 High-quality video & audio communication
+- ⚡ Real-time performance using **ZegoCloud**
+- ⚛️ Fast and modern UI with **React + Vite**
+- 📸 Screenshots of each screen included
+- 💻 Fully responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ UI Screenshots
+
+### 🔹 Welcome Page
+![Welcome Page](./screenshots/welcomepage.png)
+
+### 🔹 Enter Room Page
+![Enter Room](./screenshots/enterroom.png)
+
+### 🔹 In Call Screen
+![Meeting Screen](./screenshots/meet.png)
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| React + Vite | Frontend Framework & Build Tool |
+| ZegoCloud | WebRTC Video Calling SDK |
+| JavaScript | Core Logic |
+| HTML + CSS | Markup & Styling |
+
+---
+
+## 🧪 How It Works
+
+1. **User enters a room ID**
+2. **ZegoCloud SDK** handles authentication and video session
+3. A second user joining the same room ID connects instantly
+4. The call is peer-to-peer via WebRTC under the hood
+
+---
+
+
